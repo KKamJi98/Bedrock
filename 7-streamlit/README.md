@@ -10,7 +10,7 @@
 ## 테스트
 
 ```zsh
-❯ streamlit run streamlit_app.py --server.port 8080
+❯ streamlit run streamlit_app.py --server.port 8080  
 
       👋 Welcome to Streamlit!
 

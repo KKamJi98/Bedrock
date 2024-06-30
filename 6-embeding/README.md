@@ -10,7 +10,7 @@
 ## 테스트
 
 ```zsh
-❯ python3 bedrock_embedding.py
+❯ python3 bedrock_embedding.py  
 Closest matches for 'Felines, canines, and rodents'
 ----------------
 1.000000         Felines, canines, and rodents

@@ -2,14 +2,17 @@
 
 ## ai21.j2-ultra-v1 모델 사용 결과
 
+```zsh
 ❯ python params.py "ai21.j2-ultra-v1" "Recommand the best restaurant in Gangnam, Seoul:"
 
 There are many great restaurants in Gangnam, Seoul, but I would recommend "L'Atelier de Joël Robuchon". \
 This restaurant is a Michelin-starred restaurant that offers French cuisine. The dishes are beautifully presented and the food is delicious. \
 The restaurant also has a beautiful atmosphere, making it a great place for special occasions.
+```
 
 ## anthropic.claude-v2 모델 사용 결과
 
+```zsh
 ❯ python params.py "anthropic.claude-v2" "Recommand the best restaurant in Gangnam, Seoul"
 
 Here are some recommendations for the best restaurants in Gangnam, Seoul:
@@ -29,9 +32,11 @@ Here are some recommendations for the best restaurants in Gangnam, Seoul:
 - Congdu - Trendy restaurant with a modern take on traditional Korean food. Great for bibimbap, tteokbokki rice cakes and Korean fried chicken.
 
 I'd recommend making reservations in advance for most of these popular restaurants, especially Jungsik, Normal or Mingles. Congdu and Samwon Garden are good options if you want something more casual. Enjoy the wonderful food scene in Gangnam!
+```
 
 ## cohere.command-text-v14 모델 사용 결과
 
+```zsh
 ❯ python params.py "cohere.command-text-v14" "Recommand the best restaurant in Gangnam, Seoul:"
 
  Gangnam is a popular district in Seoul, South Korea, known for its vibrant nightlife and diverse culinary scene. Here are some of the top-rated restaurants in Gangnam, based on customer reviews and ratings:
@@ -42,3 +47,4 @@ I'd recommend making reservations in advance for most of these popular restauran
 - **Sobahn** - This restaurant serves modern Korean cuisine, with a focus on fusion dishes and international flavors. It has received positive reviews for its creative menu and flavorful dishes, as well as its cozy atmosphere.
 
 These are just a few of the many excellent restaurants in Gangnam. It is recommended to check the latest reviews and ratings before making a decision, as the culinary scene in Gangnam is constantly evolving and new restaurants are opening all the time.
+```
