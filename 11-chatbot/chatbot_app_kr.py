@@ -19,7 +19,7 @@ if 'chat_history' not in st.session_state: #채팅 내역이 아직 생성되지
 
 #채팅 기록 다시 렌더링(Streamlit은 이 스크립트를 다시 실행하므로 이전 채팅 메시지를 보존하려면 이 기능이 필요합니다.)
 for message in st.session_state.chat_history: #채팅 기록 루프
-    with st.chat_message(message["role"]): #지정된 역할에 대한 챗 라인을 렌더링하며, with 블록의 모든 내용을 포함합니다.
+    with st.chat_message(message["role"]): #지정된 역할에 대한 챗 라인을 렌더링하며, with 블록의 모든 내용을 포함
         st.markdown(message["text"]) #챗 컨텐츠 출력
         
 # 입력 요소 추가
